@@ -156,7 +156,6 @@ echo -e "$DONE"
 # run without complaining.
 if [[ ! -s /usr/src/site/package-lock.json ]]; then
   # Get user and group from package.json
-  OWNER_GROUP=$(stat -c '%u:%g' /usr/src/site/package.json)
   echo -ne "${DO}Missing ${CYAN}package-lock.json${RESET} file, running ${GOLD}npm install${RESET}"
   npm install --prefix /usr/src/site &>/dev/null
   echo -e "$DONE"
