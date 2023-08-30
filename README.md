@@ -7,7 +7,7 @@ Version 1.1.1
 
 <!-- [![dockeri.co](https://dockeri.co/image/ideasonpurpose/wordpress)](https://hub.docker.com/r/ideasonpurpose/wordpress)<br> -->
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/ideasonpurpose/wordpress?logo=docker&logoColor=white)](https://hub.docker.com/r/thealexwheeler/wordpress)
+[![Docker Pulls](https://img.shields.io/docker/pulls/thealexwheeler/wordpress?logo=docker&logoColor=white)](https://hub.docker.com/r/thealexwheeler/wordpress)
 [![Push to DockerHub](https://img.shields.io/github/actions/workflow/status/thealexwheeler/docker-wordpress-dev/push-to-dockerhub.yml?logo=github&logoColor=white&label=Push%20to%20DockerHub)](https://github.com/thealexwheeler/docker-wordpress-dev)
 
 ## About This Project
