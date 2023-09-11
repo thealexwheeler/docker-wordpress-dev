@@ -5,7 +5,7 @@ Version 1.1.1
 <!-- WPVERSION -->- WordPress 6.3
 </h4>
 
-<!-- [![dockeri.co](https://dockeri.co/image/ideasonpurpose/wordpress)](https://hub.docker.com/r/ideasonpurpose/wordpress)<br> -->
+<!-- [![dockeri.co](https://dockeri.co/image/thealexwheeler/wordpress)](https://hub.docker.com/r/thealexwheeler/wordpress)<br> -->
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/thealexwheeler/wordpress?logo=docker&logoColor=white)](https://hub.docker.com/r/thealexwheeler/wordpress)
 [![Push to DockerHub](https://img.shields.io/github/actions/workflow/status/thealexwheeler/docker-wordpress-dev/push-to-dockerhub.yml?logo=github&logoColor=white&label=Push%20to%20DockerHub)](https://github.com/thealexwheeler/docker-wordpress-dev)
@@ -25,7 +25,7 @@ To update an existing project or start a new one, run the following commands in 
 ##### macOS, Linux & Windows PowerShell
 
 ```
-docker run --rm -it -v ${PWD}:/usr/src/site ideasonpurpose/wordpress:1.1.1 init
+docker run --rm -it -v ${PWD}:/usr/src/site thealexwheeler/wordpress:1.1.2 init
 ```
 
 Followed by:
